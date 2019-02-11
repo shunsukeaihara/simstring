@@ -5,7 +5,7 @@ type SimString struct {
 	measure Measure
 }
 
-func NakeSimString() *SimString {
+func MakeSimString() *SimString {
 	db := MakeOnMemoryDB(MakeNgramEtractor(2))
 	measure := DiceIndex{}
 	return &SimString{db, measure}

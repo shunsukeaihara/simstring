@@ -20,7 +20,7 @@ func TestSearch(t *testing.T) {
 }
 
 func TestSimstring(t *testing.T) {
-	s := NakeSimString()
+	s := MakeSimString()
 	s.Add("ゴリラ")
 	s.Add("チンパンジー")
 	s.Add("ボノボ")
